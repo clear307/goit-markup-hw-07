@@ -1,4 +1,4 @@
-.section-hero {
+.hero {
    // background-color: #2f303a;
    // padding: 200px 0;
    @include section (200px, 200px, var(--background-color));
@@ -17,7 +17,7 @@
    background-size: cover;
  }
 
- .hero-btn:hover,
- .hero-btn:focus {
+ .hero__btn:hover,
+ .hero__btn:focus {
    background-color: #188ce8;
  }

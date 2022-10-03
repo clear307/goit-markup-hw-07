@@ -1,13 +1,13 @@
-.header-conteiner {
+.header__conteiner {
    display: flex;
    align-items: center;
  }
  
- .heder-nav {
+ .heder__nav {
    display: flex;
  }
  
- .heder-list {
+ .heder__list {
    display: flex;
    margin-left: auto;
    column-gap: 50px;
@@ -22,7 +22,7 @@
    border-bottom: 1px solid var(--secondary-border-color);
  }
  
- .logo {
+ .heder__logo {
    font-family: "Raleway";
    font-weight: 700;
    font-size: 26px;
@@ -30,22 +30,22 @@
    letter-spacing: 0.03em;
  }
  
- .color-logo {
+ .heder__logo--blu {
    color: var(--accent-color);
    display: flex;
    align-items: center;
    margin-right: 93px;
  }
  
- .heder-logo {
+ .heder__logo--dark {
    color: var(--main-dark-color);
  }
  
- .heder-item {
+ .heder__item {
    position: relative;
  }
  
- .heder-link {
+ .heder__link {
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
@@ -56,13 +56,13 @@
    padding: 32px 0;
  }
  
- .heder-link:hover,
- .heder-link:focus {
+ .heder__link:hover,
+ .heder__link:focus {
    color: var(--accent-color);
  }
  
- .heder-email,
- .heder-tel {
+ .heder__email,
+ .heder__tel {
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
@@ -75,29 +75,29 @@
    padding: 32px 0;
  }
  
- .email-icon,
- .tel-icon {
+ .heder__email--icon,
+ .heder__tel--icon {
    fill: currentColor;
    align-items: center;
    margin-right: 10px;
  }
  
- .heder-email:hover,
- .heder-email:focus {
+ .heder__email:hover,
+ .heder__email:focus {
    color: var(--accent-color);
  }
  
- .heder-tel:hover,
- .heder-tel:focus {
+ .heder__tel:hover,
+ .heder__tel:focus {
    color: var(--accent-color);
  }
  
- a.heder-studia,
- a.heder-portfolio {
+ a.heder__studia,
+ a.heder__portfolio {
    color: var(--accent-color);
  }
  
- a.heder-studia::after {
+ a.heder__studia::after {
    content: "";
    width: 100%;
    height: 4px;
@@ -109,7 +109,7 @@
    position: absolute;
  }
  
- a.heder-portfolio::after {
+ a.heder__portfolio::after {
    content: "";
    width: 100%;
    height: 4px;

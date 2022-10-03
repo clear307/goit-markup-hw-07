@@ -1,3 +1,17 @@
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36; /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-light-color);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 696px;
+  margin-bottom: 30px;
+}
+
 .benefits-title {
    font-weight: 700;
    font-size: 14px;
@@ -25,7 +39,7 @@
    margin-bottom: 50px;
  }
 
- .customers-title {
+ .customers__title {
    font-weight: 700;
    font-size: 36px;
    line-height: 1.17;
