@@ -1,4 +1,18 @@
 @import "./base/reset";
 @import "./utils/vars";
+@import "./base/common";
+@import "./utils/hidden";
+
+@import "./components/conteiner";
+@import "./components/hero-title";
+@import "./components/title";
+@import "./components/btn";
+
 @import "./utils/mixin";
-@import "./components/hero";
+@import "./layouts/heder";
+@import "./layouts/hero";
+@import "./layouts/benefits";
+@import "./layouts/aktiviti";
+@import "./layouts/team";
+@import "./layouts/customers";
+@import "./layouts/footer";

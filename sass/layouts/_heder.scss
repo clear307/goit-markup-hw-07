@@ -1,0 +1,126 @@
+.header-conteiner {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .heder-nav {
+   display: flex;
+ }
+ 
+ .heder-list {
+   display: flex;
+   margin-left: auto;
+   column-gap: 50px;
+ }
+ 
+ /*.heder-item:not(:last-child) {
+ margin-right: 50px;
+ }*/
+ 
+ .heder {
+   background-color: var(--main-light-color);
+   border-bottom: 1px solid var(--secondary-border-color);
+ }
+ 
+ .logo {
+   font-family: "Raleway";
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19; /* identical to box height */
+   letter-spacing: 0.03em;
+ }
+ 
+ .color-logo {
+   color: var(--accent-color);
+   display: flex;
+   align-items: center;
+   margin-right: 93px;
+ }
+ 
+ .heder-logo {
+   color: var(--main-dark-color);
+ }
+ 
+ .heder-item {
+   position: relative;
+ }
+ 
+ .heder-link {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--head-color);
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   cursor: pointer;
+   padding: 32px 0;
+ }
+ 
+ .heder-link:hover,
+ .heder-link:focus {
+   color: var(--accent-color);
+ }
+ 
+ .heder-email,
+ .heder-tel {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--text-color);
+   display: flex;
+   cursor: pointer;
+   align-items: center;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   padding: 32px 0;
+ }
+ 
+ .email-icon,
+ .tel-icon {
+   fill: currentColor;
+   align-items: center;
+   margin-right: 10px;
+ }
+ 
+ .heder-email:hover,
+ .heder-email:focus {
+   color: var(--accent-color);
+ }
+ 
+ .heder-tel:hover,
+ .heder-tel:focus {
+   color: var(--accent-color);
+ }
+ 
+ a.heder-studia,
+ a.heder-portfolio {
+   color: var(--accent-color);
+ }
+ 
+ a.heder-studia::after {
+   content: "";
+   width: 100%;
+   height: 4px;
+   background: var(--accent-color);
+   border-radius: 2px;
+   display: block;
+   bottom: -1px;
+   left: 0;
+   position: absolute;
+ }
+ 
+ a.heder-portfolio::after {
+   content: "";
+   width: 100%;
+   height: 4px;
+   background: var(--accent-color);
+   border-radius: 2px;
+   display: block;
+   bottom: -1px;
+   left: 0;
+   position: absolute;
+ }
+ 
+ .nav {
+   align-items: center;
+ }
