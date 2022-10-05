@@ -1,22 +1,19 @@
-.heder__logo {
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19; /* identical to box height */
   letter-spacing: 0.03em;
-
-  &--blu {
+  &__blu {
     color: var(--accent-color);
     display: flex;
     align-items: center;
     margin-right: 93px;
   }
-
-  &--dark {
+  &__dark {
     color: var(--main-dark-color);
   }
-}
-
-.footer-logo {
-  color: var(--main-light-color);
+  &__white {
+    color: var(--main-light-color);
+  }
 }
