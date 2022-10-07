@@ -3,15 +3,6 @@
 @import "./base/common";
 @import "./utils/hidden";
 
-@import "./components/conteiner";
-@import "./components/title";
-@import "./components/btn";
-@import "./components/modal";
-@import "./components/logo";
-@import "./components/soc-list";
-
-
-
 @import "./utils/mixin";
 @import "./layouts/heder";
 @import "./layouts/hero";
@@ -22,3 +13,10 @@
 @import "./layouts/footer";
 @import "./layouts/subscriptipon-footer";
 @import "./layouts/portfolio";
+
+@import "./components/conteiner";
+@import "./components/title";
+@import "./components/btn";
+@import "./components/modal";
+@import "./components/logo";
+@import "./components/soc-list";

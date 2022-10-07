@@ -10,7 +10,7 @@
   background-color: $bc;
 }
 
-@mixin font($ff, $fs, $fw, $lh, $ls, $fc) {
+@mixin fontbtn($ff, $fs, $fw, $lh, $ls, $fc) {
   font-family: $ff;
   font-size: $fs;
   font-weight: $fw;
