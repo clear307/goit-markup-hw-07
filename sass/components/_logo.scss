@@ -12,13 +12,15 @@
   }
   &--dark {
     color: var(--main-dark-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   &--white {
     color: var(--main-light-color);
   }
 }
 
-.logo__header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+// .logo__header {
+//   padding-top: 24px;
+//   padding-bottom: 24px;
+// }

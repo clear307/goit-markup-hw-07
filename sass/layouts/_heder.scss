@@ -1,4 +1,4 @@
-.heder {
+.header {
   background-color: var(--main-light-color);
   border-bottom: 1px solid var(--secondary-border-color);
   .header__conteiner {
@@ -19,7 +19,7 @@
   }
 }
 
-.heder__link {
+.header__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -34,7 +34,7 @@
   }
 }
 
-.heder__contacts {
+.header__contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -51,15 +51,15 @@
 }
 }
 
-.heder__email--icon,
-.heder__tel--icon {
+.header__email--icon,
+.header__tel--icon {
   fill: currentColor;
   align-items: center;
   margin-right: 10px;
 }
 
-a.heder__studia,
-a.heder__portfolio {
+a.header__studia,
+a.header__portfolio {
   color: var(--accent-color);
   &::after {
     content: "";
