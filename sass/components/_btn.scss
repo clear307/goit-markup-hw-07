@@ -1,4 +1,4 @@
-.hero__btn {
+.btn__hero {
   padding: 10px 32px;
   border-radius: 4px;
   display: block;
@@ -6,7 +6,7 @@
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.89; 
+  line-height: 1.89;
 
   align-items: center;
   text-align: center;
@@ -26,7 +26,7 @@
   }
 }
 
-.portfolio-btn {
+.btn__portfolio {
   padding: 6px 22px;
   border-radius: 4px;
   border: 0px;
@@ -35,7 +35,7 @@
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62; 
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--head-color);
@@ -54,7 +54,7 @@
   }
 }
 
-.form-btn {
+.btn__form {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
