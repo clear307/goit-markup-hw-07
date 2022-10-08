@@ -4,16 +4,16 @@
   font-size: 26px;
   line-height: 1.19; /* identical to box height */
   letter-spacing: 0.03em;
-  &__blu {
+  &--blu {
     color: var(--accent-color);
     display: flex;
     align-items: center;
     margin-right: 93px;
   }
-  &__dark {
+  &--dark {
     color: var(--main-dark-color);
   }
-  &__white {
+  &--white {
     color: var(--main-light-color);
   }
 }

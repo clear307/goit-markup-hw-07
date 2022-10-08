@@ -947,7 +947,7 @@ a.heder__portfolio::after {
   line-height: 1.19; /* identical to box height */
   letter-spacing: 0.03em;
 }
-.logo__blu {
+.logo--blu {
   color: var(--accent-color);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -957,10 +957,10 @@ a.heder__portfolio::after {
           align-items: center;
   margin-right: 93px;
 }
-.logo__dark {
+.logo--dark {
   color: var(--main-dark-color);
 }
-.logo__white {
+.logo--white {
   color: var(--main-light-color);
 }
 
