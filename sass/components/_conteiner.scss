@@ -4,3 +4,12 @@
   padding-right: 15px;
   margin: 0 auto;
 }
+
+.conteiner__header {
+  display: flex;
+  align-items: center;
+}
+.conteiner__footer {
+  display: flex;
+  align-items: baseline;
+}

@@ -1,10 +1,7 @@
 .header {
   background-color: var(--main-light-color);
   border-bottom: 1px solid var(--secondary-border-color);
-  .header__conteiner {
-    display: flex;
-    align-items: center;
-  }
+  
   &__nav {
     display: flex;
     align-items: center;
