@@ -28,6 +28,10 @@
   column-gap: 30px;
 }
 
+// .customers__item {
+//   width: calc((100% - 150px) / 6);
+// }
+
 .customers__item {
-  width: calc((100% - 150px) / 6);
+  width: calc(5 * 30px)/6;
 }

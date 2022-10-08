@@ -311,7 +311,7 @@ a.heder__portfolio::after {
 }
 
 .customers__item {
-  width: calc((100% - 150px) / 6);
+  width: 150px/6;
 }
 
 .footer {
