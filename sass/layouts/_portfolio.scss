@@ -13,7 +13,7 @@
 }
 
 // portfolio__list--project
-// portfolio-list portfolio__item
+// portfolio__item--project
 
 .portfolio__list--project {
   background-color: var(--main-light-color);
@@ -22,7 +22,7 @@
   gap: 30px;
 }
 
-.portfolio-item {
+.portfolio__item--project {
   width: calc((100% - 60px) / 3);
   &:hover .portfolio-title-overlay {
     transform: translateY(0);

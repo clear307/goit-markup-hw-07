@@ -453,10 +453,10 @@ a.header__portfolio::after {
   gap: 30px;
 }
 
-.portfolio-item {
+.portfolio__item--project {
   width: calc((100% - 60px) / 3);
 }
-.portfolio-item:hover .portfolio-title-overlay {
+.portfolio__item--project:hover .portfolio-title-overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
