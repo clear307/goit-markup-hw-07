@@ -2,21 +2,24 @@
   background-color: var(--secondary-bgr-color);
 }
 
-.portfolio-list {
-  background-color: var(--main-light-color);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
 // portfolio__list--buttons
 // batton-list
 
-.batton-list {
+.portfolio__list--buttons {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   column-gap: 8px;
+}
+
+// portfolio__list--project
+// portfolio-list
+
+.portfolio__list--project {
+  background-color: var(--main-light-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .portfolio-item {

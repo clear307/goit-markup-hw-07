@@ -430,17 +430,7 @@ a.header__portfolio::after {
   background-color: var(--secondary-bgr-color);
 }
 
-.portfolio-list {
-  background-color: var(--main-light-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 30px;
-}
-
-.batton-list {
+.portfolio__list--buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -451,6 +441,16 @@ a.header__portfolio::after {
   -webkit-column-gap: 8px;
      -moz-column-gap: 8px;
           column-gap: 8px;
+}
+
+.portfolio__list--project {
+  background-color: var(--main-light-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
 }
 
 .portfolio-item {
