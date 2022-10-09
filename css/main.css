@@ -322,7 +322,7 @@ a.header__portfolio::after {
           justify-content: center;
   margin-right: 93px;
 }
-.footer__wrap--subscriptipon {
+.footer__wrap--subscription {
   display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -348,7 +348,7 @@ a.header__portfolio::after {
   margin-top: 20px;
 }
 
-.subscriptipon-text {
+.subscription-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
@@ -357,7 +357,7 @@ a.header__portfolio::after {
   color: var(--main-light-color);
 }
 
-.subscriptipon-input {
+.subscription-input {
   width: 358px;
   height: 50px;
   font-size: 16px;
@@ -379,7 +379,7 @@ a.header__portfolio::after {
   margin-right: 12px;
   padding-left: 16px;
 }
-.subscriptipon-input placeholder {
+.subscription-input placeholder {
   font-size: 16px;
   line-height: 1.25;
   display: -webkit-box;
@@ -391,11 +391,11 @@ a.header__portfolio::after {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscriptipon-input:hover, .subscriptipon-input:focus {
+.subscription-input:hover, .subscription-input:focus {
   border-color: var(--accent-color);
 }
 
-.subscriptipon-btn {
+.subscription-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
